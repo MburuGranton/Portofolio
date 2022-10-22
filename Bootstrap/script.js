@@ -24,7 +24,7 @@ function typingSecondText() {
     if (j < secondText.length) {
         document.getElementById("secondTypedText").innerHTML += secondText.charAt(j);
         j++;
-        setTimeout(typingSecondText, 400)
+        setTimeout(typingSecondText, 100)
 
     }
 }
